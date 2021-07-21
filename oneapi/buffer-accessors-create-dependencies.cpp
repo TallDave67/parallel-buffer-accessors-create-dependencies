@@ -6,11 +6,6 @@
 
 // The original Intel code has been modified by David Bellis in 2021
 
-//==============================================================
-// Copyright © 2020 Intel Corporation
-//
-// SPDX-License-Identifier: MIT
-// =============================================================
 #include <CL/sycl.hpp>
 
 constexpr int num=16;
