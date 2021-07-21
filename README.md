@@ -30,17 +30,17 @@ This code came directly from Intel.
 
 I modified the original Intel code to display more readable output.
 
-### SYCL Execution Graph
-
-![Alt](/SYCL_dependency_graph.png "Execution Order")
-
-### Parallel
+### Compilation
 
 I placed this in my .bashrc file so the dpcpp compiler can be found.
 
 > export ONEAPI_DIR="/opt/intel/oneapi"
 
 > [ -s "$ONEAPI_DIR/setvars.sh" ] && \. "$ONEAPI_DIR/setvars.sh"  # initialize oneAPI environment
+
+### SYCL Execution Graph
+
+![Alt](/SYCL_dependency_graph.png "Execution Order")
 
 ## Output
 
