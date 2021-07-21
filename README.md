@@ -32,7 +32,7 @@ I modified the original Intel code to display more readable output.
 
 ### SYCL Execution Graph
 
-Dependencies: ![Alt](/SYCL_dependency_graph.png "Execution Order")
+![Alt](/SYCL_dependency_graph.png "Execution Order")
 
 ### Parallel
 
