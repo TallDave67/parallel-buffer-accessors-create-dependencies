@@ -10,6 +10,12 @@ Intel(R) oneAPI DPC++/C++ Compiler 2021.3.0 (2021.3.0.20210619)
 
 ## Steps
 
+*I placed this in my .bashrc file so the dpcpp compiler can be found.*
+
+> *export ONEAPI_DIR="/opt/intel/oneapi"*
+
+> *[ -s "$ONEAPI_DIR/setvars.sh" ] && \. "$ONEAPI_DIR/setvars.sh"  # initialize oneAPI environment*
+
 cd oneapi
 
 ./build.sh
@@ -29,14 +35,6 @@ This code came directly from Intel.
 [oneAPI Base Training Module 2: DPC++ Program Structure](https://devcloud.intel.com/oneapi/get_started/baseTrainingModules/)
 
 I modified the original Intel code to display more readable output.
-
-### Compilation
-
-I placed this in my .bashrc file so the dpcpp compiler can be found.
-
-> export ONEAPI_DIR="/opt/intel/oneapi"
-
-> [ -s "$ONEAPI_DIR/setvars.sh" ] && \. "$ONEAPI_DIR/setvars.sh"  # initialize oneAPI environment
 
 ### SYCL Execution Graph
 
