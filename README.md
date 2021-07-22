@@ -1,6 +1,6 @@
 # Parallel: Buffer Accessors Create Data Dependencies (DPC++)
 
-Use Intel's oneAPI DPC++ to show how the order in which you submit different kernels to 1 queue and the buffer accessors created for those kernels, will create data dependencies between the kernels that will be used to generate the SYCL graph that determines the order of kernel execution.
+Using Intel's oneAPI DPC++.  The order in which you submit kernels to a queue and the buffer accessors created for those kernels will imply data dependencies between the kernels that will be used to generate the SYCL graph that determines the order of kernel execution.
 
 Linux distro "Pop!_OS 21.04"
 
