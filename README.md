@@ -20,7 +20,7 @@ cd oneapi
 
 ./build.sh
 
-./build/buffer-accessors-create-dependencies.cpp
+./build/buffer-accessors-create-dependencies
 
 ## History
 
